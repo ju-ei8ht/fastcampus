@@ -1,6 +1,15 @@
 # 패스트캠퍼스
 ## 메가바이트스쿨 BE 4기
-### git   
+### :date: Period
+2022.12 12 ~   
+
+### :books: Stacks   
+<img src="https://img.shields.io/badge/IntelliJ-000000?style=flat-square&logo=IntelliJIDEA&logoColor=ffffff"/> <img src="https://img.shields.io/badge/VisualStudioCode-007ACC?style=flat-square&logo=VisualStudioCode&logoColor=ffffff"/> <img src="https://img.shields.io/badge/GIT-E44C30?style=flat-square&logo=Git&logoColor=ffffff"/> <img src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=Spring&logoColor=ffffff"/> <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=ffffff"/> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=ffffff"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=ffffff"/>
+
+[badge](https://github.com/alexandresanlim/Badges4-README.md-Profile)   
+
+### :computer: Study
+#### :octocat: Git   
 
 ```bash
 mkdir [new folderName]
@@ -14,4 +23,7 @@ git revert [revert version]
 git reset --soft/hard/mixed [reset version]
 git push/pull origin [branch]
 git branch -m [branch]
-```
+```   
+
+> **VsCode 단축키**   
+> ctrl + shift + ~ : TERMINAL ON
