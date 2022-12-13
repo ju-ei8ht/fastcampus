@@ -12,6 +12,8 @@
 ### :computer: Study
 #### :octocat: Git   
 
+[:file_folder: Git, Github (1)](https://www.notion.so/Git-Github-1-c8b14b95630145869ba6b4232ecc18ca)   
+
 ```bash
 mkdir [new folderName]
 rm -rf [delete folderName]
@@ -24,6 +26,7 @@ git revert [revert version]
 git reset --soft/hard/mixed [reset version]
 git push/pull origin [branch]
 git branch -m [branch]
+git clone [repo addr]
 ```   
 
 > **VsCode 단축키**   
