@@ -45,6 +45,16 @@ git switch [branchName]
 //checkout보다 switch
 git branch --list
 git branch -d [delete branchName]
+rm -rf .git
+git merge [merge할 branchName]
+//실무에선 command로 merge할 일은 없음
+git log --oneline --graph --decorate
+git merge [merge할 branchName] --no-ff
+//fast-forward로 merge 안 하게
+git rebase [rebase할 branchName]
+git fetch --prune
+//pr하고 삭제된 branch 정리
+//로컬 브랜치도 -d로 삭제(띄어쓰기로 구분)
 ```
 
 [:bookmark_tabs: Github default branch 변경하기 (master to main)](https://www.hahwul.com/2021/07/17/changing-the-github-default-branch/)
