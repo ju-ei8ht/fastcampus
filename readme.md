@@ -28,6 +28,9 @@ git push/pull origin [branch]
 git branch -m [branch]
 git clone [repo addr]
 ```   
+> **VsCode 단축키**   
+> ctrl + shift + ~ : TERMINAL ON   
+
 ---
 
 [:file_folder: Git, Github (2)](https://www.notion.so/Git-Github-2-8f799ae773584aaf821c123e2cd87913)
@@ -44,6 +47,16 @@ git branch --list
 git branch -d [delete branchName]
 ```
 
+[:bookmark_tabs: Github default branch 변경하기 (master to main)](https://www.hahwul.com/2021/07/17/changing-the-github-default-branch/)
 
-> **VsCode 단축키**   
-> ctrl + shift + ~ : TERMINAL ON
+```bash
+git branch -m master main
+git push -u origin main
+```
+clone의 경우
+```bash
+git branch -m master main
+git fetch origin
+git branch -u origin/main main
+git remote set-head origin -a
+```
