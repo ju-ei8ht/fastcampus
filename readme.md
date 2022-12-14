@@ -28,6 +28,22 @@ git push/pull origin [branch]
 git branch -m [branch]
 git clone [repo addr]
 ```   
+---
+
+[:file_folder: Git, Github (2)](https://www.notion.so/Git-Github-2-8f799ae773584aaf821c123e2cd87913)
+
+```bash
+git config --global init.defaultBranch main
+//git init하면 default branch main으로
+git branch -m main
+//branch를 main으로
+git switch -c [new branchName]
+git switch [branchName]
+//checkout보다 switch
+git branch --list
+git branch -d [delete branchName]
+```
+
 
 > **VsCode 단축키**   
 > ctrl + shift + ~ : TERMINAL ON
