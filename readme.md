@@ -60,3 +60,11 @@ git fetch origin
 git branch -u origin/main main
 git remote set-head origin -a
 ```
+
+[:bookmark_tabs: How do I delete a Git branch locally and remotely?](https://stackoverflow.com/questions/2003505/how-do-i-delete-a-git-branch-locally-and-remotely)
+
+```bash
+git push -d [remote_name] [branchName]
+git branch -d [branchName]
+```
+**Note:** In most cases, [remote_name] will be origin.
