@@ -74,7 +74,31 @@ git remote set-head origin -a
 [:bookmark_tabs: How do I delete a Git branch locally and remotely?](https://stackoverflow.com/questions/2003505/how-do-i-delete-a-git-branch-locally-and-remotely)
 
 ```bash
-git push -d [remote_name] [branchName]
+git push -d [remoteName] [branchName]
 git branch -d [branchName]
 ```
-**Note:** In most cases, [remote_name] will be origin.
+**Note:** In most cases, [remoteName] will be origin.
+
+---
+
+[:file_folder: Git, Github (3)](https://www.notion.so/Git-Github-3-417b850c658940fc8e94e73f0bb9c2f8)
+
+```bash
+git pull [remoteName] [branchName] --no-ff
+//git pull error시
+```
+> commit 본문을 쓰기보단 PR 본문을 쓰는 게 효율적
+
+[:bookmark_tabs: How do I undo 'git add' before commit?](https://stackoverflow.com/questions/348170/how-do-i-undo-git-add-before-commit)
+
+```bash
+git reset [file]
+```
+if this tried then
+```bash
+fatal: Failed to resolve 'HEAD' as a valid ref.
+```
+solution
+```bash
+git rm --cached [file]
+```
