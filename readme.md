@@ -100,5 +100,5 @@ fatal: Failed to resolve 'HEAD' as a valid ref.
 ```
 solution
 ```bash
-git rm --cached [file]
+git rm -r --cached [file]
 ```
